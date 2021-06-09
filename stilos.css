@@ -116,7 +116,7 @@ main {
 
 @media (pointer: coarse) and (hover: none) {
     .headerVideo {
-        background: url('/Assets/Video/mikasa-trap-bass-japanese-type-beat-lofi-hiphop-mix.mp4') black no-repeat center center scroll;
+        background: url('./Assets/Video/mikasa-trap-bass-japanese-type-beat-lofi-hiphop-mix.mp4') black no-repeat center center scroll;
     }
 
 }

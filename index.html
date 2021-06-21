@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="La mejor ropa al alcanze de tu bolsillo, perfecta relacion precio/Calidad.">
     <meta name="keywords" content="Ropa, remeras, buzos, Hoddies, abrigos, zapatillas, lentes, relojes, bolsos">
-    <link rel="stylesheet" href="stilos.css">
+    <link rel="shortcut icon" href="./Assets/images/fantasma.png">
+    <link rel="stylesheet" href="./css/Stylo.css">
     <link rel="stylesheet" href="./Assets/bootstrap-5.0.0-dist/css/bootstrap.css">
     <script src="https://kit.fontawesome.com/f2c50cad3f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./Assets/fontawesome-free-5.15.1-web/css/all.css">
@@ -23,18 +24,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Inicio de pagina</title>
 </head>
 
 <body>
-
     <head>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light navFather">
+
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light navFather sizzingContainerNav">
 
 
             <div class="container-fluid">
-                <a class="navbar-brand navBarSizzing" href="#">SHOP</a>
+                <a class="navbar-brand navBarSizzing" href="./views/shop.html">SHOP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -43,11 +45,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="navbar-brand responsiveItem" href="#">PROFILE</a>
+                            <a class="navbar-brand responsiveItem" href="./index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="navbar-brand responsiveItem" href="contact.html">CONTACT</a>
+                            <a class="navbar-brand responsiveItem" href="./views/contact.html">CONTACT</a>
                         </li>
+                        
                     </ul>
                     <form class="d-flex">
                         <input class="form-control me-2 navSearch " type="search" placeholder="Search"
@@ -75,8 +78,8 @@
     <main>
         <div class="container-fluid backContainer">
             <div class="row container__Middle-Context">
-                <div class="col col-lg-8 container__Middle-Context-SecondCol">
-                    <div class="container containerSizzing">
+                <div class="col  container__Middle-Context-SecondCol">
+                    <div class="container containerSizzing containerTransittion">
                         <div class="profile-card-2"><img src="/Assets/images/profilePic.jpg"
                                 class="img img-responsive">
                             <div class="profile-name profile-nameTextSizzing">
@@ -88,7 +91,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container containerSecondSizzing containerTransittion">
+                    <div class="col col-lg-9 container containerSecondSizzing" id="Introduce">
                         <p>
                             <h2><ins>BIENVENIDO USUARIO</ins></h2>
                             <hr>
@@ -109,35 +112,50 @@
                                 Espero puedas disfrutar la pagina. En el caso que te interese contactarme sobre mi
                                 imagen tenes un link a mis redes sociales.</p><br>
                             <p>De nuevo, agradezco tu tiempo y espero disfrutes esta pagina.</p>
+                    </div> 
+                </div>
+                <div class="col col-lg-9 container containerThirdSizzing" id="Introduce">
+                    <div class="container containerSizzing containerTransittion">
+                        <div class="profile-card-2"><img src="/Assets/images/profilePic.jpg"
+                                class="img img-responsive">
+                            <div class="profile-name profile-nameTextSizzing">
+                                <p>PLOMER,FRANCO NICOLAS</p>
+                            </div>
+                            <div class="profile-username">@franco_plomer</div>
+                            <div class="profile-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+                                        class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
                     </div>
-
-                </div>
-                <div class="col containerSecondSizzing" id="englishIntroduce">
-                    <h2><ins>WELCOME USER</ins></h2>
-                    <hr>
-                    <p> I appreciate that you are here, below you can see a web development which I carried out
-                        for the course "Web Design" dictated by the educational
-                        institution <strong>CODERHOUSE</strong> if you are interested in knowing more about it you
-                        can do it by clicking on the following icon
-                        <a href="https://www.coderhouse.com/"><i class="fas fa-laptop-code"></i></a>.</p><br>
-                    <p>I introduce myself. My name is Plomer, Franco Nicolas; I am from Argentina and I am currently
-                        in the city of Cordoba. I am a student of Systems Engineering as I also specialize in
-                        various areas of development. To date, and also referring to the project that you are seeing
-                        now, I am training myself to be a
-                        <strong>development web Full-Stack.</strong>
-                        I hope you can enjoy the page. If you are interested contact me, over my
-                        picture you have a link to my social networks.</p><br><br>
-                    <p id="ending">Again, I appreciate your time and I hope you enjoy this page.</p>
-
-                </div>
+                    <p>
+                        <h2><ins>BIENVENIDO USUARIO</ins></h2>
+                        <hr>
+                        <p>Agradezco que estes aca,
+                            a continuacion podras ver un desarrollo web el cual lleve a cabo para el curso "Diseño
+                            Web" dictado
+                            por la institucion educativa <strong>CODERHOUSE</strong> si estas interesado en conocer
+                            mas sobre esta misma
+                            puedes hacerlo haciendo click en el siguiente icono
+                            <a href="https://www.coderhouse.com/"><i class="fas fa-laptop-code"></i></a>.</p><br>
+                        <p>Me presento. Mi nombre es
+                            Plomer, Franco Nicolas; Soy de Argentina y actualmente me encuentro en la ciudad de
+                            Cordoba. Soy estudiante de
+                            Ingenieria en sistemas como tambien me especializo en diversas areas del desarrollo. A
+                            la fecha, y tambien haciendo
+                            referencia al proyecto que estas viendo ahora, me estoy capacitando para ser un
+                            <strong>development web Full-Stack.</strong>
+                            Espero puedas disfrutar la pagina. En el caso que te interese contactarme sobre mi
+                            imagen tenes un link a mis redes sociales.</p><br>
+                        <p>De nuevo, agradezco tu tiempo y espero disfrutes esta pagina.</p>
+                </div> 
             </div>
         </div>
         <div class="container-fluid backContainerSecond">
             <div class="row container__Middle-ContextSecond">
                 <div class="container__Middle-ContextSecond-Body">
                     <section class="container__Middle-ContextSecond-Body-Seccion">
-                        <h1><ins>QUE ES <strong>TOROEDORO</strong></ins></h1>
-                        <p class="parrafos"><strong>TOROEDORO</strong> nace en una pequeña cochera donde un grupo de
+                        <h1 data-aos="fade-left"><ins>QUE ES <strong>TOROEDORO</strong></ins></h1>
+                        <p class="parrafos" data-aos="fade-right"><strong>TOROEDORO</strong> nace en una pequeña cochera donde un grupo de
                             amigos
                             ,fanaticos de la cultura geek, anime, gamer, entre otras cosas, decidieron demostrar su
                             pasion
@@ -157,32 +175,33 @@
                     <section class="contextDisplay">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body cardBack">
-                                <h5 class="card-title">GENTE</h5>
+                                <h5 class="card-title"  data-aos="fade-left" >GENTE</h5>
                                 <hr>
-                                <p class="card-text">
+                                <p class="card-text"  data-aos="fade-left">
                                     “Hay mil opciones. Podemos
                                     adaptar cada cosa que nos guste, hacer que nos quede bien para poder
-                                    usarla."<br><br><br>
+                                    usarla."
 
-                                </p>
+                                </p><br><br><br><br>
                                 <a href="#" class="btn btn-primary">Noticia</a>
                             </div>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">Magazine</h5>
+                                <h5 class="card-title"  data-aos="fade-left">Magazine</h5>
                                 <hr>
-                                <p class="card-text">
+                                <p class="card-text"  data-aos="fade-left">
                                     "En este momento la moda nos está dando un mensaje muy grande."<br><br><br><br>
                                 </p>
+                                <br><br><br>
                                 <a href="#" class="btn btn-primary">Noticia</a>
                             </div>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">AnimeWorld</h5>
+                                <h5 class="card-title"  data-aos="fade-left">AnimeWorld</h5>
                                 <hr>
-                                <p class="card-text">"Hace buen uso de su tematica y la aplica a la perfeccion sobre
+                                <p class="card-text"  data-aos="fade-left">"Hace buen uso de su tematica y la aplica a la perfeccion sobre
                                     su contenido. El catalogo esta lleno de variedades, colores y personajes...
                                     Recomendado para todo el publico fan ya tenga cultura geek o no."</p>
                                 <a href="#" class="btn btn-primary">Noticia</a>
@@ -190,18 +209,18 @@
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">Malditos Nerds</h5>
+                                <h5 class="card-title "  data-aos="fade-left">Malditos Nerds</h5>
                                 <hr>
-                                <p class="card-text">"Tenemos a toda nuestra oficina comprando los productos de
-                                    TOROEDORO, felicitaciones al equipo y a seguir creciendo".<br><br><br></p>
+                                <p class="card-text"  data-aos="fade-left">"Tenemos a toda nuestra oficina comprando los productos de
+                                    TOROEDORO, felicitaciones al equipo y a seguir creciendo".</p><br><br><br><br>
                                 <a href="#" class="btn btn-primary">Noticia</a>
                             </div>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">LatinGamer</h5>
+                                <h5 class="card-title"  data-aos="fade-left">LatinGamer</h5>
                                 <hr>
-                                <p class="card-text">"Nos encanta, no nos perdemos ni una coleccion.
+                                <p class="card-text"  data-aos="fade-left">"Nos encanta, no nos perdemos ni una coleccion.
                                     esperamos seguir viendo lo mejor de este grupo."<br><br><br><br>
                                 </p>
                                 <a href="#" class="btn btn-primary">Noticia</a>
@@ -209,9 +228,9 @@
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">DandoEstilo</h5>
+                                <h5 class="card-title"  data-aos="fade-left">DandoEstilo</h5>
                                 <hr>
-                                <p class="card-text">"Es bueno saber que empresas de indole nacional tienen un impacto
+                                <p class="card-text"  data-aos="fade-left">"Es bueno saber que empresas de indole nacional tienen un impacto
                                     cultural
                                     tan grande a nivel internacional."<br><br><br></p>
                                 <a href="#" class="btn btn-primary">Noticia</a>
@@ -219,9 +238,9 @@
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">TodoJuegos</h5>
+                                <h5 class="card-title"  data-aos="fade-left">TodoJuegos</h5>
                                 <hr>
-                                <p class="card-text">"En todas las presentaciones que hacemos llevamos su ropa, nos
+                                <p class="card-text"  data-aos="fade-left">"En todas las presentaciones que hacemos llevamos su ropa, nos
                                     encanta
                                     y nos enamora. Tiene una perfecta relacion de estilo y cultura."<br><br></p>
                                 <a href="#" class="btn btn-primary">Noticia</a>
@@ -229,9 +248,9 @@
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-body  cardBack">
-                                <h5 class="card-title">CiudadModaGeek</h5>
+                                <h5 class="card-title"  data-aos="fade-left">CiudadModaGeek</h5>
                                 <hr>
-                                <p class="card-text">"Otro excelente catalogo por parte de la gente de
+                                <p class="card-text"  data-aos="fade-left">"Otro excelente catalogo por parte de la gente de
                                     TOROEDORO"<br><br><br><br>
                                     <br>
                                 </p>
@@ -239,6 +258,7 @@
                             </div>
                         </div>
                     </section>
+                    <br><br><br><br>
 
                 </div>
 
@@ -249,7 +269,7 @@
         <div class="container-fluid backContainerfour">
             <div class="row container__Middle-Contextfour">
                 <div class="container__Middle-Contextfour-Body">
-                    <div class="containerSharingan">
+                    <div class="containerSharingan" data-aos="fade-down" data-aos-delay="1000">
 
                         <div id="eye">
                             <!--the whites of the eye + eyelash-->
@@ -277,7 +297,7 @@
                         </div>
                     </div>
                     <div class="carrousel_Products">
-                        <h1 class="carrousel_Products-Tittle">PRODUCTOS PREMIUM</h1>
+                        <h1 class="carrousel_Products-Tittle" data-aos="fade-up">PRODUCTOS PREMIUM</h1>
 
                         <div class="container text-center my-3 containerSixing__Carrousel">
                             <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
@@ -285,32 +305,32 @@
                                     <div class="carousel-item row no-gutters active">
                                         <div class="col-3 float-left"><button data-bs-toggle="modal"
                                             data-bs-target="#firstPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/222/fff?text=1"></button></div>
+                                                src="./Assets/images/Harajuku Bear Anime Hoodie.jpg"></button></div>
                                         <div class="col-3 float-left"><button data-bs-toggle="modal"
                                             data-bs-target="#secondPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/444?text=2"></button></div>
+                                                src="./Assets/images/Outwear Graffiti” Jacket.jpg"></button></div>
                                         <div class="col-3 float-left"><button data-bs-toggle="modal"
                                             data-bs-target="#thirdPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/888?text=3"></button></div>
+                                                src="./Assets/images/Kawaii Anime Hoodie.jpg"></button></div>
                                         <div class="col-3 float-left"><button data-bs-toggle="modal"
                                             data-bs-target="#fourPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/111/fff?text=4"></button></div>
+                                                src="./Assets/images/Design Fashion Camera Mini Purse.jpg"></button></div>
                                     </div>
                                     <div class="carousel-item row no-gutters">
                                         <div class="col-3 float-left"><button data-bs-toggle="modal"
                                             data-bs-target="#fivePremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280?text=5"></button></div>
+                                                src="./Assets/images/Hooded Winter Long Sleeve Chinese style Embroidery Hoodie.jpg"></button></div>
                                         <div class="col-3 float-left">
                                             <button data-bs-toggle="modal"
                                             data-bs-target="#sixPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/555?text=6"></button></div>
+                                                src="./Assets/images/Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat.jpg"></button></div>
                                         <div class="col-3 float-left">
                                             <button data-bs-toggle="modal"
                                             data-bs-target="#sevenPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/333/fff?text=7"></button></div>
+                                                src="./Assets/images/HODDIE SASUKE EYES.jpg"></button></div>
                                         <div class="col-3 float-left"><button data-bs-toggle="modal"
                                             data-bs-target="#eightPremiumModal"><img class="img-fluid"
-                                                src="http://placehold.it/350x280/bbb?text=8"></button></div>
+                                                src="./Assets/images/T-SHORTS GOKU TRAINING.jpg"></button></div>
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev sr-onlyPos" href="#recipeCarousel" role="button"
@@ -332,6 +352,7 @@
         <div class="container-fluid backContainerfive">
             <div class="row container__Middle-Contextfive">
                 <div class="container__Middle-Contextfive-Body">
+                    <a href="#" class="slideUp"><i class="fas fa-chevron-up">Inicio de pagina</i></a>
                     <!-- Footer -->
                     <footer class="footerColor text-center text-white footer-sizing">
                         <!-- Grid container -->
@@ -404,9 +425,13 @@
                             <!-- Grid container -->
 
                             <!-- Copyright -->
+                            <!--Desde la pagina donde descargue el icono pedia atribuir al autor-->
+                            <div>Iconos diseñados por <a href="" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+                            
                             <div class="text-center p-3 copyright-sizing" style="background-color: rgba(0, 0, 0, 0.2);">
                                 © 2021 Copyright
                             </div>
+
                             <!-- Copyright -->
                     </footer>
                     <!-- Footer -->
@@ -418,15 +443,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=1" class="imagenModal">
+                        <img src="./Assets/images/Harajuku Bear Anime Hoodie.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">Harajuku Bear Anime Hoodie</h2>
+                        <p class="precio">💲1500,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -435,15 +460,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=2" class="imagenModal">
+                        <img src="./Assets/images/Outwear Graffiti” Jacket.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">Outwear Graffiti” Jacket</h2>
+                        <p class="precio">💲3000,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -452,15 +477,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=3" class="imagenModal">
+                        <img src="./Assets/images/Kawaii Anime Hoodie.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">Kawaii Anime Hoodie</h2>
+                        <p class="precio">💲1500,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -469,15 +494,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=4" class="imagenModal">
+                        <img src="./Assets/images/Design Fashion Camera Mini Purse.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">Design Fashion Camera Mini Purse</h2>
+                        <p class="precio">💲6000,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -486,15 +511,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=5" class="imagenModal">
+                        <img src="./Assets/images/Hooded Winter Long Sleeve Chinese style Embroidery Hoodie.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">Hooded Winter Long Sleeve Chinese style Embroidery Hoodie.jpg</h2>
+                        <p class="precio">💲1500,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -503,15 +528,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=6" class="imagenModal">
+                        <img src="./Assets/images/Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">Shiba Inu Print Kawaii Velvet Long-sleeved Hooded Plush Coat</h2>
+                        <p class="precio">💲3000,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -520,15 +545,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=7" class="imagenModal">
+                        <img src="./Assets/images/HODDIE SASUKE EYES.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">HODDIE SASUKE EYES</h2>
+                        <p class="precio">💲1500,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -537,15 +562,15 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <img src="http://placehold.it/350x280/222/fff?text=8" class="imagenModal">
+                        <img src="./Assets/images/T-SHORTS GOKU TRAINING.jpg" class="imagenModal">
                     </div>
                     <div class="modal-body">
-                        <h2 class="Descripcion">...</h2>
-                        <p class="precio">...</p>
+                        <h2 class="Descripcion">T-SHORTS GOKU TRAINING</h2>
+                        <p class="precio">💲1000,00ARS</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">dejar de agregar</button>
-                        <button type="button" id="save" class="btn btn-primary">agregar al carrito</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">dejar de agregar</button>
+                        <button type="button" id="save" class="btn btn-success">agregar al carrito</button>
                     </div>
                 </div>
             </div>
@@ -565,6 +590,10 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 
 </html>

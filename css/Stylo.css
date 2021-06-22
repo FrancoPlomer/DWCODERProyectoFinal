@@ -924,7 +924,7 @@ svg {
     transform: translateX(-50%) translateY(-50%); }
   .headerVideo_Shop {
     margin-top: 26rem !important;
-    margin-left: -48rem !important; } }
+    margin-left: -4rem !important; } }
 
 @media (max-width: 375px) {
   .headerVideo .shopText {
@@ -1717,7 +1717,7 @@ svg {
   .container__Middle-Context-SecondCol {
     display: none; } }
 
-@media (max-width: 1024px) and (max-height: 1366px) {
+@media (max-width: 2340px) and (max-height: 1366px) {
   .headerVideo video {
     position: absolute;
     left: 50%;
@@ -1733,7 +1733,7 @@ svg {
   .headerVideo_Shop {
     margin-left: -10rem; } }
 
-@media (max-width: 2160px) and (min-width: 992px) {
+@media (max-width: 2340px) and (min-width: 992px) {
   .headerVideo video {
     position: absolute;
     left: 50%;
@@ -1754,7 +1754,7 @@ svg {
     display: block; }
     .containerThirdSizzing p {
       color: #fff;
-      font-size: 18pt; }
+      font-size: 17pt; }
     .containerThirdSizzing h2 {
       font-size: 18pt;
       color: #fff;

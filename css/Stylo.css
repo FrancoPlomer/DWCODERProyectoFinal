@@ -1133,7 +1133,8 @@ svg {
   .containerThirdSizzing {
     display: block; }
     .containerThirdSizzing p {
-      color: #fff; }
+      color: #fff;
+      font-size: 16pt; }
     .containerThirdSizzing h2 {
       font-size: 15pt;
       color: #fff;
@@ -1456,7 +1457,7 @@ svg {
     display: block; }
     .containerThirdSizzing p {
       color: #fff;
-      font-size: 17pt; }
+      font-size: 16pt; }
     .containerThirdSizzing h2 {
       font-size: 18pt;
       color: #fff;

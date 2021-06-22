@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 
 <body>
@@ -82,7 +82,7 @@
     <div class="container-fluid backContainerfive">
         <div class="row container__Middle-Contextfive">
             <div class="container__Middle-Contextfive-Body">
-                <a href="#" class="slideUp"><i class="fas fa-chevron-up">Inicio de pagina</i></a>
+                <a href="#" class="slideUp" aria-label="inicioPage"><i class="fas fa-chevron-up">Inicio de pagina</i></a>
                 <!-- Footer -->
                 <footer class="footerColor text-center text-white footer-sizing">
                     <!-- Grid container -->
@@ -90,27 +90,27 @@
                         <!-- Section: Social media -->
                         <section class="mb-4 socialMediaSizing">
                             <!-- Facebook -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" ="button" aria-label="facebook"><i
                                     class="fab fa-facebook-f btn--facebook"></i></a>
 
                             <!-- Twitter -->
-                            <a class="btn btn-outline-light btn-floating m-1 " href="#!" role="button"><i
+                            <a class="btn btn-outline-light btn-floating m-1 " href="#!" ="button" aria-label="twitter"><i
                                     class="fab fa-twitter btn--twitter"></i></a>
 
                             <!-- Google -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" ="button" aria-label="gmail"><i
                                     class="fab fa-google btn--send-mail"></i></a>
 
                             <!-- Instagram -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" ="button" aria-label="instagram"><i
                                     class="fab fa-instagram btn--instagram"></i></a>
 
                             <!-- Linkedin -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" ="button" aria-label="linkedin"><i
                                     class="fab fa-linkedin-in btn--linkedin"></i></a>
 
                             <!-- Github -->
-                            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                            <a class="btn btn-outline-light btn-floating m-1" href="#!" ="button" aria-label="github"><i
                                     class="fab fa-github btn--github"></i></a>
                         </section>
                         <!-- Section: Social media -->
@@ -122,19 +122,20 @@
                                 <div class="row d-flex justify-content-center suscribeSizing">
                                     <!--Grid column-->
                                     <div class="col-auto">
-                                        <p class="pt-1">
-                                            <strong>Sign up for our newsletter</strong>
-                                        </p>
+                                        <label for="form5Example2">
+                                            <p class="pt-1">
+                                                <strong>Sign up for our newsletter</strong>
+                                            </p>
+                                        </label>
                                     </div>
                                     <!--Grid column-->
 
                                     <!--Grid column-->
-                                    <div class="col-md-5 col-12">
+                                    <div class="col-md-5 col-12" aria-label="emailSuscribirse">
                                         <!-- Email input -->
-                                        <div class="form-outline form-white mb-3">
+                                        <div class="form-outline form-white mb-3" aria-label="containerEmailSuscribirse">
                                             <input type="email" id="form5Example2"
                                                 class="form-control form-sizing" />
-
                                         </div>
                                     </div>
                                     <!--Grid column-->
@@ -153,11 +154,15 @@
                         </section>
                         <!-- Section: Form -->
                         <!-- Grid container -->
-                        <div>Iconos diseñados por <a href="" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
                         <!-- Copyright -->
+                        <!--Desde la pagina donde descargue el icono pedia atribuir al autor-->
+                        <div>Iconos diseñados por <a href="" title="smalllikeart" id="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon" id="Flaticon">www.flaticon.es</a></div>
+                        
                         <div class="text-center p-3 copyright-sizing" style="background-color: rgba(0, 0, 0, 0.2);">
                             © 2021 Copyright
                         </div>
+
                         <!-- Copyright -->
                 </footer>
                 <!-- Footer -->

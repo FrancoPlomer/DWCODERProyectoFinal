@@ -1096,7 +1096,7 @@ svg {
   .fa-envelope-open-text {
     font-size: 100pt;
     text-align: center;
-    margin-left: -3.5rem; }
+    margin-left: -4rem; }
   .headerVideo video {
     position: absolute;
     left: 60%;
@@ -1110,15 +1110,16 @@ svg {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
   .sizzingButton {
-    margin-left: -2.8rem;
-    padding: 0;
+    margin-left: -1.8rem;
     height: 4rem;
-    width: 12rem;
+    width: 16rem !important;
     font-size: 8pt !important;
     box-shadow: 3px 3px #000;
     background-color: #212529 !important;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  .text-style h1 {
+    margin-left: 0.1rem; }
   .navbar-nav {
     margin-top: 2rem;
     margin-left: -1rem;

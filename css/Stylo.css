@@ -8421,8 +8421,8 @@ svg {
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%); }
   .headerVideo_Shop {
-    margin-top: 26rem !important;
-    margin-left: -4rem !important; } }
+    margin-top: 20rem !important;
+    margin-left: -50rem !important; } }
 
 @media (max-width: 375px) {
   .headerVideo .shopText {

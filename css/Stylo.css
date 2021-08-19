@@ -8491,7 +8491,7 @@ svg {
   .backContainerThird {
     margin: 0;
     overflow: hidden;
-    height: 200rem;
+    height: 220rem;
     width: 80rem;
     background: #535050E6;
     background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
@@ -8499,7 +8499,7 @@ svg {
     background: linear-gradient(to bottom right, #535050E6, #000000E6); }
     .backContainerThird .container__Middle-ContextThird-Body {
       width: 100%;
-      height: 200rem;
+      height: 220rem;
       background: url("../Assets/images/CastlevaniaBack.jpg");
       background-position: -20rem;
       background-size: cover;

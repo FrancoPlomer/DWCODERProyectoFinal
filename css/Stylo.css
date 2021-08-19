@@ -7612,7 +7612,7 @@ main {
 
 /*Main*/
 .backContainer {
-  height: 26rem;
+  height: 30rem;
   overflow: hidden;
   background: #535050E6;
   background: -webkit-linear-gradient(top left, #535050E6, #000000E6);
